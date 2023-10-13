@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form2.css">
+    <title>form2</title>
+</head>
+<body>
+    <form action="Page.html">
+        <fieldset class="sd">
+            <legend >Person Details</legend>
+
+        <label for="Fname">FirstName</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="FirstName" id="Fname" required name="Fname">
+        <br><br>
+
+        <label for="Mname">MiddleName</label>
+        <input type="MiddleName" id="Mname" name="Mname">
+        <br><br>
+
+        <label for="Lname">LastName</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="LastName" id="Lname" name="Lname">
+        <br><br>
+        
+        <label for="email">Email</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="dob">DOB</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        </fieldset>
+
+        <fieldset class="sd">
+            <legend>Educational Details</legend>
+            <label for="">Department</label>
+            <br><br>
+
+            <input type="radio" id="CSE" name="Department">
+            <label for="">CSE</label>
+            
+            <input type="radio" id="EC" name="Department">
+            <label for="">ECE</label>
+
+            <input type="radio" id="CIVIL" name="Department">
+            <label for="">CIVIL</label>
+            <br><br>
+
+            <label for="yop">YOG</label>
+            <input list="yog" id="yop" name="yop">
+            <datalist id="yog">
+
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+
+
+            </datalist>
+            <br><br>
+            <label for="">SKILLS</label>
+            <br><br>
+
+            <input type="checkbox" id="HTML" name="Skils">
+            <label for="">HTML</label>
+
+            <input type="checkbox" id="CSS" name="Skils">
+            <label for="">CSS</label>
+
+            <input type="checkbox" id="JAVASCRIPT" name="Skils">
+            <label for="">JAVASCRIPT</label><br><br>
+           
+           
+        </fieldset>
+        
+        <input type="submit" id="one">
+    </form>
+</body>
+</html>
